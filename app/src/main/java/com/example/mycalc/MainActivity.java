@@ -3,6 +3,7 @@ package com.example.mycalc;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -23,6 +24,16 @@ public class MainActivity extends AppCompatActivity {
         height = findViewById(R.id.height);
         bmi = findViewById(R.id.bmi);
         btn = findViewById(R.id.button);
+
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+
+
+            }
+        });
+
 
 
 
