@@ -19,6 +19,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        weight = findViewById(R.id.weight);
+        height = findViewById(R.id.height);
+        bmi = findViewById(R.id.bmi);
+        btn = findViewById(R.id.button);
+
+
 
 
 
