@@ -1,5 +1,7 @@
 package com.example.mycalc;
 
+import static java.lang.String.format;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -29,7 +31,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
+                String w = weight.getText().toString();
+                String h = height.getText().toString();
 
+                float we = Float.parseFloat(w);
+                float he = Float.parseFloat(h);
+
+                float calc = we / (he * he);
+
+
+                bmi.setText("BMI = "+format("%.2f", calc));
 
             }
         });
