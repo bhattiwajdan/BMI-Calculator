@@ -9,6 +9,10 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
+    EditText weight;
+    EditText height;
+    TextView bmi;
+    Button btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
